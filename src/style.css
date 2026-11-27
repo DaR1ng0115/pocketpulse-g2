@@ -1,0 +1,59 @@
+:root {
+  color-scheme: dark;
+  font-family: system-ui, sans-serif;
+  color: #e9f2ec;
+  background: #101613;
+  font-synthesis: none;
+}
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { max-width: 650px; margin: 0 auto; padding: 25px 24px; }
+header { display: flex; justify-content: space-between; gap: 12px; align-items: baseline; margin-bottom: 18px; }
+.brand { font-weight: 750; font-size: 24px; letter-spacing: -.04em; }
+.g2 { color: #91f8ad; }
+#connection { font-size: 12px; color: #aebfb4; }
+.panel {
+  padding: 17px 18px;
+  margin-bottom: 13px;
+  border: 1px solid #2d4236;
+  border-radius: 14px;
+  background: #16211b;
+}
+.eyebrow { color: #93e6aa; font-size: 12px; font-weight: 700; letter-spacing: .11em; text-transform: uppercase; }
+h1, h2, p, pre, dl, dd { margin: 0; }
+h1 { font-size: 23px; line-height: 1.15; margin: 8px 0; }
+h2 { font-size: 19px; margin: 7px 0; }
+p { font-size: 14px; color: #bccec2; line-height: 1.45; }
+.metrics { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-top: 13px; }
+.metrics div { background: #101914; border-radius: 8px; padding: 8px; }
+dt { font-size: 11px; color: #a6b9ac; }
+dd { margin-top: 3px; font-size: 15px; font-variant-numeric: tabular-nums; }
+.display {
+  position: relative;
+  aspect-ratio: 3.35;
+  container-type: inline-size;
+  background: #060d08;
+  border: 1px solid #2c5035;
+  border-radius: 12px;
+  color: #a2ffaf;
+}
+.glasses-connected .display { display: none; }
+.row { position: absolute; inset-inline: 5%; font-size: 3.15cqw; }
+#source { top: 10%; color: #85bd8e; font-size: 2.65cqw; }
+#headline { top: 29%; font-weight: 640; }
+#detail { top: 50%; }
+#action { top: 76%; color: #85d397; font-size: 2.75cqw; }
+nav { display: flex; gap: 8px; flex-wrap: wrap; margin: 12px 0 14px; }
+button { font: inherit; font-size: 14px; padding: 8px 12px; border: 1px solid #42564a; border-radius: 8px; background: #1b2920; color: inherit; cursor: pointer; }
+button:disabled { opacity: .55; cursor: default; }
+#tap { background: #254830; color: #b0ffbf; }
+.rejected { background: #2d211a; border-color: #6b4e34; }
+.rejected .eyebrow, .rejected h2 { color: #ffcb91; }
+#settings .eyebrow { margin-bottom: 7px; }
+.memo { margin-top: 11px; border-radius: 9px; padding: 11px 12px; background: #112128; }
+.memo .eyebrow { color: #90d6f4; }
+pre { margin-top: 7px; font: 13px/1.4 ui-monospace, monospace; color: #d2e7ec; white-space: pre-wrap; overflow-wrap: anywhere; }
+@media (max-width: 400px) {
+  main { padding-inline: 14px; }
+  h1 { font-size: 19px; }
+}
