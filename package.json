@@ -1,0 +1,27 @@
+{
+  "name": "pocketpulse-g2",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "api": "node server/http.js",
+    "build": "vite build",
+    "test": "node --test",
+    "sim": "evenhub-simulator http://127.0.0.1:5173",
+    "pack": "npm run build && evenhub pack app.json dist --sdk-ver 0.0.16 -o artifacts/pocketpulse.ehpk",
+    "capture": "bash scripts/capture.sh"
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "dependencies": {
+    "@evenrealities/even_hub_sdk": "0.0.16"
+  },
+  "devDependencies": {
+    "@evenrealities/evenhub-cli": "0.2.0",
+    "@evenrealities/evenhub-simulator": "0.9.5",
+    "vite": "7.3.8"
+  },
+  "license": "MIT"
+}
