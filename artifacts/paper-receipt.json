@@ -1,0 +1,17 @@
+{
+  "price": 3199.2,
+  "units": 0.007814453613403351,
+  "slippageBps": 2.5,
+  "createdAt": "2026-11-24T17:11:33.068Z",
+  "size": 25,
+  "quoteId": "88c0e7b17321d79ee4fb8ab7",
+  "source": "DEMO",
+  "venue": "Hyperliquid",
+  "title": "ETH · Perp",
+  "side": "SELL",
+  "signal": "Funding spike +4.20 bp / h",
+  "id": 1,
+  "delivery": "mock",
+  "messageId": null,
+  "memo": "PocketPulse G2 • PAPER #1 • DEMO\nHyperliquid · ETH · Perp\nFunding spike +4.20 bp / h\nSELL $25 @ 3199.2 · Slip 2.5 bp\n2026-11-24T17:11:33.068Z"
+}

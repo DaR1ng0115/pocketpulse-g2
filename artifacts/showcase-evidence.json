@@ -1,0 +1,30 @@
+{
+  "stages": [
+    "hyperliquid",
+    "polymarket",
+    "wide-review",
+    "blocked",
+    "liquid",
+    "paper-review",
+    "receipt"
+  ],
+  "rejection": "Slippage 84.04bp > 50bp cap",
+  "rejectedCount": 0,
+  "receipt": {
+    "price": 59720,
+    "units": 0.0004186202277294039,
+    "slippageBps": 2.09,
+    "createdAt": "2026-11-24T19:52:15.838Z",
+    "size": 25,
+    "quoteId": "3adafa46985be024247580c8",
+    "source": "LIVE",
+    "venue": "Hyperliquid",
+    "title": "BTC · Perp",
+    "side": "BUY",
+    "signal": "Funding watch -0.13 bp / h",
+    "id": 1,
+    "delivery": "mock",
+    "messageId": null,
+    "memo": "PocketPulse G2 • PAPER #001 • LIVE\nHyperliquid · BTC · Perp\nFunding watch -0.13 bp / h\nBUY $25 @ 59720 · Slip 2.09 bp\n2026-11-24T19:52:15.838Z"
+  }
+}
